@@ -69,10 +69,7 @@ export default {
 }
 
 
-
-
 </script>
-
 
 <style scoped>
 .Login {
@@ -83,7 +80,6 @@ export default {
   margin-left: 160px;
   gap: 20px;
   align-items: center;
-
 }
 
 .SubLogin {
@@ -182,3 +178,4 @@ span {
   width: 500px;
 }
 </style>
+
