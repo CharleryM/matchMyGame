@@ -107,27 +107,6 @@
 
 }
 
-.dropdown-with-icons{
-    > li > a{
-        padding-left: 0px;
-        line-height: 28px;
-    }
-    i{
-        text-align: center;
-        line-height: 28px;
-        float: left;
-
-        &[class^="pe-"]{
-             font-size: 24px;
-             width: 46px;
-        }
-        &[class^="fa"]{
-            font-size: 14px;
-            width: 38px;
-        }
-    }
-}
-
 //fix bug for the select items in btn-group
 .btn-group.select{
     overflow: hidden;

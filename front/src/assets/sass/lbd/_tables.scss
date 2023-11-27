@@ -9,22 +9,6 @@
     padding: 0px 0px;
     margin: 0px 5px;
     text-align: center;
-
-    .icons{
-      left: 5px;
-    }
-  }
-  > thead > tr > th,
-  > tbody > tr > th,
-  > tfoot > tr > th,
-  > thead > tr > td,
-  > tbody > tr > td,
-  > tfoot > tr > td{
-    padding: 12px 8px;
-    vertical-align: middle;
-    &:last-child {
-      width: 100%;
-    }
   }
 
   > thead > tr > th{

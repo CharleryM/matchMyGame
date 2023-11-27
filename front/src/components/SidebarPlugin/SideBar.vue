@@ -6,9 +6,6 @@
     <div class="sidebar-wrapper">
       <div class="logo">
         <a href="#" class="simple-text logo__container">
-            <div class="logo-img">
-                <img src="img/vue-logo.png" alt="">
-            </div>
           {{title}}
         </a>
       </div>
@@ -43,7 +40,7 @@
     props: {
       title: {
         type: String,
-        default: 'Vue LBD'
+        default: 'Match My game'
       },
       backgroundColor: {
         type: String,
@@ -98,6 +95,7 @@
    flex: 1;
  }
  .sidebar .sidebar-wrapper .logo .logo__container {
-   padding-left: 10px;
+   display: flex;
+   justify-content: center;
  }
 </style>
