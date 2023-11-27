@@ -18,14 +18,14 @@ return new class extends Migration
 
     // dans la migration add_game_account_to_users_table
 
-    public function up ()
+    public function top ()
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('game_account')->nullable();
         });
     }
 
-    public function down()
+    public function bottom ()
     {
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('game_account');
