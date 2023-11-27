@@ -1,4 +1,4 @@
-<template>
+<template :style="{margin:0;}">
   <div class="SubLogin" :style="{ backgroundImage: `url(${require('/public/Img1.jpeg')})` }">
     <form>
       <div class="Login" :style="{ display: flex, flexDirection: column, }">
@@ -126,7 +126,6 @@ input {
   flex-direction: column;
   align-items: center;
   margin-top: 64px;
-  margin-right: 160px;
   gap: 20px;
   align-items: center;
 }
@@ -177,5 +176,9 @@ span {
   background: white;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.MentionLegal {
+  width: 500px;
 }
 </style>

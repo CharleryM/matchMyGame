@@ -16,6 +16,11 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0 !important;
+
+}
+
 #App {
   padding: 0;
   margin: 0;
