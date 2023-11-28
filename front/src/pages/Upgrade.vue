@@ -5,8 +5,8 @@
         <div class="col-md-8 ml-auto mr-auto">
           <div class="card">
             <div class="header text-center">
-              <h4 class="title">Light Bootstrap Dashboard PRO</h4>
-              <p class="category">Are you looking for more components? Please check our Premium Version of Light Bootstrap Dashboard.</p>
+              <h4 class="title">MatchMyGame</h4>
+              <p class="category">Are you looking for more components? Please check our Premium Version of MatchMyGame Dashboard.</p>
               <br>
             </div>
             <div class="content table-responsive table-upgrade">
