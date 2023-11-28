@@ -7,8 +7,8 @@
                 body-classes="table-full-width table-responsive"
           >
             <template slot="header">
-              <h4 class="card-title">Striped Table with Hover</h4>
-              <p class="card-category">Here is a subtitle for this table</p>
+              <h4 class="card-title" id="amis">Mes amis</h4>
+               <!--<p class="card-category">Here is a subtitle for this table</p> -->
             </template>
             <l-table class="table-hover table-striped"
                      :columns="table1.columns"
@@ -18,7 +18,7 @@
 
         </div>
 
-        <div class="col-12">
+        <!-- <div class="col-12">
           <card class="card-plain">
             <template slot="header">
               <h4 class="card-title">Table on Plain Background</h4>
@@ -31,9 +31,9 @@
               </l-table>
             </div>
           </card>
-        </div>
+        </div> -->
 
-        <div class="col-12">
+        <!-- <div class="col-12">
           <card class="strpied-tabled-with-hover"
                 body-classes="table-full-width table-responsive"
           >
@@ -47,7 +47,7 @@
             </l-table>
           </card>
 
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -112,4 +112,13 @@
   }
 </script>
 <style>
+
+#amis{
+  color:  #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 </style>
